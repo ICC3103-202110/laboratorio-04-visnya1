@@ -1,4 +1,3 @@
-
 let prompt = require('prompt-sync')({sigint:true});
 
 function view(counter)
