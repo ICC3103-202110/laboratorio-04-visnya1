@@ -15,7 +15,7 @@ function update(msg,counter)
     {
         return counter + 1;
     }
-    else
+    else       //cualquier otro caracter
     {
         return counter;
     }
@@ -26,7 +26,7 @@ function app(counter)
     while(true)
     {
         const currentView = view(counter);
-        console.clear();
+        console.clear(); 
         console.log(currentView);
         const msg = prompt('What would you do? ');
         counter = update(msg,counter);
